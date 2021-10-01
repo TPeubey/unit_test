@@ -15,7 +15,9 @@ Example Output
 - Each person gets 2 pieces of pizza.
 - There are 0 leftover pieces.
 
-- Challenges
+# Challenges
+
+
 Revise the program to ensure that inputs are entered as numeric values. Don’t allow the user to proceed if the value entered is not numeric.
 Alter the output so it handles pluralization properly, for example:
 Each person gets 2 pieces of pizza.
