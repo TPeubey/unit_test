@@ -27,5 +27,8 @@ class TestOne(unittest.TestCase):
         number_slice_by_people = get_number_slice_by_people(people=8, pizza=2)
         self.assertEqual(2, number_slice_by_people)
 
-    def test_even(self):
+    def test_number_slice_by_people_with_2_pizza_7_people(self):
+        self.assertEqual(2, get_number_slice_by_people(people=7, pizza=2))
+
+
         
